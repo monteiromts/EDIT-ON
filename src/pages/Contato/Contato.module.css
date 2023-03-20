@@ -1,0 +1,50 @@
+.container_about {
+    display: flex;
+    min-height: 70vh;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container_about img {
+    width: 70%;
+    height: 60%;
+    display: flex;
+   
+}
+
+
+.est {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 540px;
+    width: 420px;
+    margin: 3px;
+    border:solid 2px;
+    border-radius:20px;
+    background: linear-gradient(
+  90deg,
+  rgb(254, 254, 255) 0%,
+  rgb(252, 164, 162) 35%,
+  rgb(255, 255, 255) 100%
+);
+
+   
+}
+
+.nome {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.rede {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
